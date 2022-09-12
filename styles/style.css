@@ -1,0 +1,107 @@
+
+body {
+margin:0 auto;
+font-family: TT Lakes;
+}
+
+h1{
+font-size: 30px; 
+margin-left: 32px;   
+}
+.header-line{
+padding-top: 50px;    
+display: flex;  
+align-items: center;
+justify-content: space-between;  
+}
+.option-holder{
+display:flex;
+align-items:center;
+margin-right: 45px;
+}
+    
+.link_item1, .link_item2{
+display:flex;
+align-items: center;
+font-size: 23px; 
+margin-right: 62px; 
+}
+.link_item1{
+margin-right: 32px;    
+}
+.image1, .image2{
+margin-left: 8px;
+}
+.nav_items{
+margin-left: 33px;
+margin-bottom: 22px;
+font-size: 25px;
+}
+.nav_item{
+text-decoration: none;
+margin-right: 30px;
+}
+
+.nav_item:hover{
+border: 2px solid 
+#B8FFEC; 
+padding:5px 10px 5px 10px; 
+border-radius: 6px;    
+}
+
+.review{
+margin-left: 33px;
+font-size: 23px;
+margin-bottom: 22px;
+}
+.review_item{
+text-decoration: none;
+}
+
+.about{
+height: 160px;
+width: 640px;   
+display: flex;
+Vertical-align: Top;
+flex-direction: column;
+line-height: 25px;
+margin-left: 33px;
+}
+
+p{
+margin: 0;
+padding-bottom: 15px;
+font-size: 20px;
+}
+.text_item2{
+padding-bottom: 0;
+}
+
+.extra{
+margin-top: 65px;    
+margin-left: 33px;
+font-size: 23px;     
+}
+.extra_item{
+text-decoration: none;
+}
+.image3{
+margin-right: 10px;
+}
+.figure{
+display: flex;
+justify-content: flex-end;
+margin:0;
+position: absolute;
+left: 510px;
+bottom: -70px;
+}
+.image{
+transform: translateY(-195px) translateX(50px);    
+width: 700px;
+height: 383.24px;
+border-radius: 6px;
+margin-left: 130px;
+}
+
+ 
