@@ -6,14 +6,13 @@ font-family: TT Lakes;
 
 h1{
 font-size: 28px; 
-margin-left: 30px;   
+margin-left: -430px;   
 }
 .picture{
 width:3px;
 height: 40px;   
 }
 .picture_item{
-
 }
 
 .header-line{
@@ -67,12 +66,13 @@ text-decoration: none;
 
 .about{
 height: 160px;
-width: 640px;   
+width: 490px;   
 display: flex;
 Vertical-align: Top;
 flex-direction: column;
 line-height: 25px;
-margin-left: 33px;
+margin-left: 34px;
+margin-right: 36px;
 }
 
 p{
@@ -95,20 +95,16 @@ text-decoration: none;
 .image3{
 margin-right: 10px;
 }
-.figure{
+figure{
 display: flex;
 justify-content: flex-end;
-margin:0;
-position: absolute;
-left: 510px;
-bottom: -70px;
-}
-.image4{
-transform: translateY(-195px) translateX(50px);    
-width: 700px;
-height: 383.24px;
-border-radius: 6px;
-margin-left: 130px;
+margin-right: 28.65px;
 }
 
- 
+.image4{   
+width: 531.35px;
+height:383.24px;
+border-radius: 6px;
+}
+
+transform: translateY(-75px) translateX(50px);    
