@@ -8,6 +8,14 @@ h1{
 font-size: 28px; 
 margin-left: 32px;   
 }
+.picture{
+width:3px;
+height: 40px;   
+}
+.picture_item{
+
+}
+
 .header-line{
 padding-top: 50px;    
 display: flex;  
