@@ -17,7 +17,6 @@ justify-content: space-between;
 .option-holder{
 display:flex;
 align-items:center;
-margin-right: 45px;
 }
     
 .link_item1, .link_item2{
