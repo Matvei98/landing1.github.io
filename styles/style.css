@@ -6,7 +6,9 @@ font-family: TT Lakes;
 
 h1{
 font-size: 28px; 
-margin-left: -430px;   
+}
+.heading{
+    
 }
 .picture{
 width:3px;
