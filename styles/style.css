@@ -41,13 +41,25 @@ padding-right: 32px;
 
 .nav_items{
 margin-left: 54.64px;
+margin-right: 37px;
 margin-bottom: 22px;
 font-size: 16px;
 }
 .nav_item{
 text-decoration: none;
-margin-right: 30px;
 color: #7E7E82;
+}
+.nav_item:nth-child(1){
+margin-right: 40.7px;
+}
+.nav_item:nth-child(2){
+margin-right: 34.15px;
+}
+.nav_item:nth-child(3){
+margin-right: 27px;
+}
+.nav_item:nth-child(4){
+margin-right: 21px;
 }
 
 .nav_item:hover{
