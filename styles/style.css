@@ -31,8 +31,7 @@ display: flex;
 
 a.text1,a.text2{
 color: #1B1C21;
-line-height: 24px; 
-padding-right: 8px;   
+line-height: 24px;    
 }
 .link_item1{
 padding-right: 32px;
