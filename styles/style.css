@@ -84,15 +84,15 @@ border-radius: 6px;
 }
 
 .about{
-height: 160px;
-width: 490px;   
+ 
 display: flex;
 Vertical-align: Top;
 flex-direction: column;
 line-height: 20px;
 margin:0;
 }
-
+height: 160px;
+width: 490px;  
 p{
 margin: 0;
 padding-bottom: 15px;
