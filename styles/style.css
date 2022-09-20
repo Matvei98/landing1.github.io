@@ -118,6 +118,7 @@ margin-right: 10px;
 figure{
 display: flex;
 justify-content: flex-end;
+margin: 0;
 }
 
 .image4{   
