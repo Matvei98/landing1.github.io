@@ -90,7 +90,7 @@ display: flex;
 Vertical-align: Top;
 flex-direction: column;
 line-height: 20px;
-margin-right: 36px;
+margin:0;
 }
 
 p{
