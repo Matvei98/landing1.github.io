@@ -38,7 +38,6 @@ padding-right: 8px;
 display:flex;
 align-items: center;
 font-size: 16px; 
-padding-right: 32px; 
 }
 
 .nav_items{
@@ -119,7 +118,6 @@ margin-right: 10px;
 figure{
 display: flex;
 justify-content: flex-end;
-margin-right: 28.65px;
 }
 
 .image4{   
