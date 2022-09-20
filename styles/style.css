@@ -1,9 +1,10 @@
 
 body {
-margin:0 auto;
 font-family: TT Lakes;
 }
-
+main{
+padding:;
+}
 h1{
 font-size: 28px; 
 display: flex;
@@ -16,8 +17,7 @@ width:3px;
 height: 40px;   
 }
 
-.header-line{
-padding-top: 50px;    
+.header-line{   
 display: flex;
 align-items: center;  
 justify-content: space-between;
@@ -40,9 +40,6 @@ padding-right: 32px;
 }
 
 .nav_items{
-margin-left: 54.64px;
-margin-right: 37px;
-margin-bottom: 22px;
 font-size: 16px;
 }
 .nav_item{
@@ -70,13 +67,18 @@ border-radius: 6px;
 }
 
 .review{
-margin-left: 56px;
 font-size: 16px;
 margin-bottom: 22px;
 }
 .review_item{
 text-decoration: none;
 color: #7E7E82;
+}
+a.review_item:hover{
+border: 2px solid 
+#B8FFEC; 
+padding:8.63px 21.7px 7.37px 22.64px; 
+border-radius: 6px; 
 }
 
 .about{
@@ -86,7 +88,6 @@ display: flex;
 Vertical-align: Top;
 flex-direction: column;
 line-height: 20px;
-margin-left: 34px;
 margin-right: 36px;
 }
 
@@ -101,7 +102,6 @@ padding-bottom: 0;
 
 .extra{
 margin-top: 13.78px;    
-margin-left: 40px;
 font-size: 16px;      
 }
 .extra_item{
