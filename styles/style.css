@@ -44,6 +44,9 @@ font-size: 16px;
 font-size: 16px;
 padding-bottom: 14.63px;
 }
+.nav_items span{
+display: table-cell;
+}
 .nav_item{
 text-decoration: none;
 color: #7E7E82;
