@@ -14,7 +14,7 @@ flex-direction: column;
 h1{
 font-size: 28px; 
 display: flex;
-flex-basis: 65%;
+flex-basis: 75%;
 }
 .header-line{   
 display: flex;
