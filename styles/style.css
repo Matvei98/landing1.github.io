@@ -15,9 +15,7 @@ font-size: 28px;
 display: flex;
 flex-basis: 80%;
 }
-.picture{
-width:3px;
-height: 40px;   
+.picture{   
 }
 
 .header-line{   
