@@ -11,6 +11,10 @@ header{
 display: flex;
 flex-direction: column;
 }
+.picture{
+position: absolute;
+left: 0;
+}
 h1{
 font-size: 28px; 
 display: flex;
