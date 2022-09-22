@@ -93,13 +93,18 @@ font-size: 14px;
 }
 
 .extra{   
-font-size: 16px;      
-}
+font-size: 16px;  
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+justify-content: flex-end;
+transform: translateY(-1790%);
+}    
+
 
 .extra_item{
 text-decoration: none;
 color: #1B1C21;
-font-style: medium;
 line-height: 24px; 
 }
 .image3{
