@@ -1,9 +1,16 @@
-
 @media screen and (max-width:768px) {
 .pic_item1{
 
 } 
-   
+main{
+padding: 0;
+} 
+.pic_items{
+display:flex ;
+}
+h1{
+
+}
 }
 
 
