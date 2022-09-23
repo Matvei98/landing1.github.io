@@ -20,13 +20,18 @@ font-size: 28px;
 display: flex;
 flex-basis: 65%;
 }
+.h_item{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
 .header-line{   
 display: flex;
-align-items: center;  
 justify-content: space-between;
+flex-direction: row-reverse;
 }
 
-.option-holder{
+.pic_items{
 display: flex;
 }  
 
@@ -110,13 +115,15 @@ line-height: 24px;
 .image3{
 margin-right: 10px;
 }
-
 figure.image4{
 height: 383.24px;
 width: 531.34px;    
 display: flex;
 flex-direction: row-reverse;
 transform: translate(110%,-55%);
+}
+.pics{
+display: none; 
 }
 
 

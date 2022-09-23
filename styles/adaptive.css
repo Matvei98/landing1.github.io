@@ -3,14 +3,33 @@
 
 } 
 main{
-padding: 0;
+padding: 24px 40px  14.34px 24px;
 } 
 .pic_items{
 display:flex ;
 }
-h1{
+.pics{
+display: flex;
+align-items: center;
+}
+
+.h_item{
 
 }
+.picture{
+
+}
+.header-line{
+display: flex;
+flex-direction: column;
+}
+a.text1,a.text2{
+display: none;
+}
+.review_item{
+display: none;
+}
+.link_item1{padding-right: 16px;}
 }
 
 
