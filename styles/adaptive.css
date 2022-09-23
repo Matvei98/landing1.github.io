@@ -5,20 +5,32 @@
 main{
 padding: 24px 40px  14.34px 24px;
 } 
-.pic_items{
+.container{
 display:flex ;
+justify-content: space-between;
+align-items: center;
 }
-.pics{
+.block_container{
+display: flex;
+align-items: center;
+flex-basis: 35%;
+}
+.block_container2{
+display: flex;
+}
+.pics1{
 display: flex;
 align-items: center;
 }
-
-.h_item{
-
+.pic_item1{
+padding-right: 20px;
 }
-.picture{
-
+.image1,.image2{
+padding-right: 16px;
 }
+
+
+
 .header-line{
 display: flex;
 flex-direction: column;
