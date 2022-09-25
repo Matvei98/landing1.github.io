@@ -11,10 +11,10 @@ justify-content: space-between;
 align-items: center;
 padding-bottom: 42px;
 }
-.block_container{
+.block_container1{
 display: flex;
 align-items: center;
-flex-basis: 35%;
+flex-basis: 55%;
 }
 .block_container2{
 display: flex;
@@ -22,10 +22,16 @@ display: flex;
 .pics1{
 display: flex;
 align-items: center;
+flex-basis: 15%;
 }
-.pic_item1{
-padding-right: 20px;
+.pics2{
+display: flex;
 }
+.pic_item2{
+display: flex;
+flex-basis: 5%;
+}
+
 .image1,.image2{
 padding-right: 16px;
 }
@@ -41,19 +47,39 @@ flex-direction: column;
 a.text1,a.text2{
 display: none;
 }
+.link_item1{padding-right: 16px;}
 .review_item{
 display: none;
 }
-.link_item1{padding-right: 16px;}
-figure.image4{
+.nav_items{
+white-space: nowrap;
+padding:8.63px 21.7px 7.37px 22.64px;      
+}
+
+.nav_1,.nav_5{
+display: none;
+}
+span{
+display: flex;
+text-decoration: none;
+color: #7E7E82;
+}
+
+.nav_item:hover{
+outline: 2px solid #B8FFEC; 
+border-radius: 6px;  
+}
+
+.text_about{
+height: 160px;
+width: 312px;   
+}
+
+figure.image4_lalek{
 height: 259.65px;
  width: 360px;  
 }
-.text_about{
-height: 160px;
-width: 312px; 
-padding-top:;  
-}
+
 }
 
 
