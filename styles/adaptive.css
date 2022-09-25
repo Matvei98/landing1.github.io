@@ -9,6 +9,7 @@ padding: 24px 40px  14.34px 24px;
 display:flex ;
 justify-content: space-between;
 align-items: center;
+padding-bottom: 42px;
 }
 .block_container{
 display: flex;
@@ -29,7 +30,9 @@ padding-right: 20px;
 padding-right: 16px;
 }
 
-
+h1{
+margin: 0;
+}
 
 .header-line{
 display: flex;
@@ -42,6 +45,15 @@ display: none;
 display: none;
 }
 .link_item1{padding-right: 16px;}
+figure.image4{
+height: 259.65px;
+ width: 360px;  
+}
+.text_about{
+height: 160px;
+width: 312px; 
+padding-top:;  
+}
 }
 
 
