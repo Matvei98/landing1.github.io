@@ -10,6 +10,7 @@ padding:50px 32px 11.13px 32px;
 header{
 display: flex;
 flex-direction: column;
+
 }
 .picture{
 position: absolute;
@@ -79,7 +80,7 @@ border-radius: 6px;
  
 .review{
 font-size: 16px;
-margin-bottom: 22px;
+display: flex;
 }
 .review_item{
 text-decoration: none;
@@ -92,44 +93,45 @@ outline: 2px solid
 border-radius: 6px; 
 }
 
+.container2{
+display: flex;
+justify-content: ;   
+}
 .block_container4{
 height: 160px;
 width: 490px;
 display: flex;
 font-size: 14px;
-gap: 36px;
-flex-direction: column;
-flex-wrap: wrap;
+flex-basis: ;
 }
 
 .text_item{
 display: flex;
 flex-direction: column;
+flex-basis: 90%;
 }
+
 .image4{
 height: 383.24px;
-width: 531.34px;  
+width: 531.34px; 
+display: flex;
+flex-basis: 60%; 
 }
 
-    
 
-
-.extra{   
-font-size: 16px;  
-display: flex;
-flex-direction: row-reverse;
-align-items: center;
-justify-content: flex-end;
-transform: translateY(-1790%);
-}    
-
-.extra_item{
+.text{
 text-decoration: none;
 color: #1B1C21;
 line-height: 24px; 
+font-size: 16px;  
 }
+
+.text::before{
+content:"url:attr(images/icon.png)";
+}
+
 .image3_option{
-margin-right: 10px;
+
 }
 
 .block_container1{
