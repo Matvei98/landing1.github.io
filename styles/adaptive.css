@@ -71,7 +71,7 @@ outline: 2px solid #B8FFEC;
 border-radius: 6px;  
 }
 
-.text_about{
+.block_container4{
 height: 160px;
 width: 312px;   
 display: flex;
@@ -79,8 +79,12 @@ justify-content: space-around;
 }
 
 .extra{
-
+display: flex;
 }
+.extra_item{
+    
+}
+
 figure.image4_lalek{
 height: 259.65px;
  width: 360px;  

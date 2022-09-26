@@ -35,7 +35,7 @@ flex-direction: row-reverse;
 display: flex;
 }  
 
-.link{
+.block_container3{
 display: flex;
 }
 a.text1,a.text2{
@@ -92,19 +92,19 @@ outline: 2px solid
 border-radius: 6px; 
 }
 
-.text_about{
+.block_container4{
 height: 160px;
 width: 490px;
 display: flex;
-flex-direction: column;
-justify-content: flex-end;
-line-height: 20px;
-padding-top: 20px;
-}
-.text_item,.text_item2{
-margin-right: 50px;
 font-size: 14px;
 }
+.text_item,.text_item2{
+
+}
+
+
+    
+
 
 .extra{   
 font-size: 16px;  
@@ -123,13 +123,7 @@ line-height: 24px;
 .image3_option{
 margin-right: 10px;
 }
-figure.image4_lalek{
-height: 383.24px;
-width: 531.34px;    
-display: flex;
-flex-direction: row-reverse;
-transform: translate(110%,-55%);
-}
+
 .block_container1{
 display: none; 
 }
