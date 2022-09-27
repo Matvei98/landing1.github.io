@@ -40,6 +40,15 @@ h1{
 margin: 0;
 padding-bottom: 40px;
 }
+.h_item{
+display: flex;
+ flex-direction: column;
+justify-content: flex-start;
+}
+.picture{
+height: 40px;
+width: 4px;        
+}
 .header-line{
 display: flex;
 flex-direction: column;
@@ -70,21 +79,28 @@ color: #7E7E82;
 outline: 2px solid #B8FFEC; 
 border-radius: 6px;  
 }
-
-.block_container4{
-height: 160px;
-width: 312px;   
+.rek{
 display: flex;
-justify-content: space-around;
+}
+.container2{
+display: flex;
+gap: 48px;
+}
+.block_container4{  
+display: flex;
 }
 
+.text_item{
+display: flex;
+height: 160px;
+width: 312px;
+}
 
-
-figure.image4_lalek{
+.lalek{
+border-radius: 6px;
 height: 259.65px;
- width: 360px;  
+width: 360px;
 }
-
 }
 
 
