@@ -95,7 +95,7 @@ border-radius: 6px;
 
 .container2{
 display: flex;
-  
+justify-content: space-between;  
 }
 .block_container4{
 display: flex;
@@ -106,11 +106,10 @@ display: flex;
 display: flex;
 flex-direction: column;
 height: 160px;
-flex-basis: 50%;
 font-size: 14px;
 line-height: 20px;
+flex-basis:50%;
 }
-
 .image4{
 display: flex;
 justify-content: flex-end;
