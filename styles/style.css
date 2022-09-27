@@ -99,7 +99,7 @@ display: flex;
 }
 .block_container4{
 display: flex;
-font-size: 14px;
+
 }
 
 .text_item{
@@ -107,6 +107,8 @@ display: flex;
 flex-direction: column;
 height: 160px;
 flex-basis: 50%;
+font-size: 14px;
+line-height: 20px;
 }
 
 .image4{

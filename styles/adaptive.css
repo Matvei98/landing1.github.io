@@ -94,6 +94,7 @@ display: flex;
 display: flex;
 height: 160px;
 width: 312px;
+flex-basis: 90%;
 }
 
 .lalek{
