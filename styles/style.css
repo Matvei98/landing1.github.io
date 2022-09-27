@@ -112,11 +112,12 @@ flex-basis: 50%;
 .image4{
 display: flex;
 justify-content: flex-end;
+width: 531.34px; 
 }
 .lalek{
 border-radius: 6px;
 height: 383.24px;
-width: 531.34px;    
+   
 }
 
 .text{
