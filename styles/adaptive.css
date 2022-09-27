@@ -105,13 +105,30 @@ width: 360px;
 }
 
 
-
-
-
-
-
-
-
 @media screen and (max-width:320px){
+main{
+padding: 24px 16px 7.62px 16px;
+} 
+.container2{
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+    }
+    .block_container4{  
+    display: flex;
+    }
     
+.text_item{
+display: flex;
+height: 90px;
+width: 288px;
+flex-basis: 90%;
+}
+    
+.lalek{
+border-radius: 6px;
+ height: 230.8px;
+width: 320px;
+}
+
 }
