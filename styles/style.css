@@ -3,8 +3,8 @@ body {
 font-family: TT Lakes;
 margin: 0;
 }
+
 main{ 
-display: block;
 padding:50px 32px 11.13px 35px;
 }
 header{
@@ -130,13 +130,6 @@ align-items: center;
 flex-direction: row-reverse;
 justify-content: flex-end;
 gap:16px;
-}
-
-
-
-
-.image3_option{
-
 }
 
 .block_container1{
