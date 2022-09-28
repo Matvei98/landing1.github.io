@@ -150,6 +150,9 @@ height: 90px;
 width: 288px;
 flex-basis: 80%;
 }
+.text{
+
+}
 .image4{
 display: flex;
 justify-content: flex-start;
