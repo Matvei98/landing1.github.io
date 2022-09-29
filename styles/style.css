@@ -1,6 +1,4 @@
 
-
-
 body { 
 font-family: TT Lakes;
 margin: 0;
@@ -33,7 +31,9 @@ display: flex;
 justify-content: space-between;
 flex-direction: row-reverse;
 }
-
+.block_container1{
+display: none;
+}
 .container{
 display: flex;
 }  
