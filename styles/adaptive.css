@@ -113,9 +113,7 @@ flex-direction: column-reverse;
 main{
 padding:24px 16px 7.62px 16px;
 }
-.container{
 
-}
 .block_container1{
 display: flex;
 justify-content: space-between;
@@ -137,7 +135,7 @@ padding-bottom: 0;
 }
 .container2{
 display: flex;
-gap: 245px;
+gap: 310px;
 flex-direction: column;
 }
 .block_container4{  
@@ -148,14 +146,14 @@ display: flex;
 display: flex;
 height: 90px;
 width: 288px;
-flex-basis: 80%;
+flex-basis: 65%;
+line-height: 18px;
 }
-.text{
 
-}
 .image4{
 display: flex;
 justify-content: flex-start;
+transform: translateX(-15px);
 }    
 .lalek{
 border-radius: 6px;
