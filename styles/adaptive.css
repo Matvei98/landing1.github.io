@@ -1,7 +1,8 @@
 @media screen and (max-width:784px) {
-.pic_item1{
-
-} 
+.con{
+display: flex;
+flex-direction: column;
+}
 main{
 padding: 24px 40px  14.34px 24px;
 } 
