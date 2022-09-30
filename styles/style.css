@@ -1,3 +1,5 @@
+@media screen and (min-width:1120px){
+    
 
 body { 
 font-family: TT Lakes;
@@ -144,5 +146,5 @@ display: none;
 .rek{
 display: none;
 }
-
+}
 
