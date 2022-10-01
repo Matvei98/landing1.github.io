@@ -1,5 +1,4 @@
-@media screen (max-width: 1121px) {
-
+@media screen (max-width:1126px){
     body {
         font-family: TT Lakes;
         margin:0;
@@ -152,4 +151,8 @@
     .rek {
         display: none;
     }
-}
+
+}   
+
+
+   
