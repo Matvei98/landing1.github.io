@@ -1,3 +1,163 @@
+@media screen (max-width:1126px){
+    body {
+        font-family: TT Lakes;
+        margin:0;
+    }
+
+    main {
+        padding: 42px 32px 11.13px 35px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .picture {
+        position: absolute;
+        left: 0;
+    }
+
+    h1 {
+        font-size: 28px;
+        display: flex;
+        flex-basis: 65%;
+    }
+
+    .h_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-line {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+
+    .container {
+        display: flex;
+    }
+
+    .block_container3 {
+        display: flex;
+    }
+
+    a.text1,
+    a.text2 {
+        color: #1B1C21;
+        line-height: 24px;
+        padding-right: 8px;
+    }
+
+    .link_item1 {
+        padding-right: 32px;
+    }
+
+    .link_item1,
+    .link_item2 {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    .nav_items {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        padding-bottom: 14.63px;
+    }
+
+    span {
+        display: none;
+    }
+
+    .nav_1,
+    .nav_5 {
+        display: flex;
+    }
+
+    .nav_item {
+        text-decoration: none;
+        color: #7E7E82;
+        padding: 8.63px 21.7px 7.37px 22.64px;
+    }
+
+    .nav_item:hover {
+        outline: 2px solid #B8FFEC;
+        border-radius: 6px;
+    }
+
+    .review {
+        font-size: 16px;
+        display: flex;
+    }
+
+    .review_item {
+        text-decoration: none;
+        color: #7E7E82;
+        padding: 8.63px 21.7px 7.37px 22.64px;
+    }
+
+    a.review_item:hover {
+        outline: 2px solid #B8FFEC;
+        border-radius: 6px;
+    }
+
+    .container2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .block_container4 {
+        display: flex;
+    }
+
+    .text_item {
+        display: flex;
+        flex-direction: column;
+        height: 160px;
+        font-size: 14px;
+        line-height: 20px;
+        flex-basis: 55%;
+    }
+
+    .image4 {
+        display: flex;
+        justify-content: flex-end;
+        width: 531.34px;
+    }
+
+    .lalek {
+        border-radius: 6px;
+        height: 383.24px;
+
+    }
+
+    .text {
+        text-decoration: none;
+        color: #1B1C21;
+        line-height: 24px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        gap: 16px;
+    }
+
+    .rek {
+        display: none;
+    }
+
+}   
+
+
+   
+
+
 @media (min-width:768px){
 .con{
 display: flex;
