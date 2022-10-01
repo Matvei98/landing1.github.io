@@ -39,7 +39,9 @@
     .container {
         display: flex;
     }
-
+.block_container1{
+    display: none;
+}
     .block_container3 {
         display: flex;
     }
