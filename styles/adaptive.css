@@ -87,12 +87,19 @@
     }
 
     .nav_items {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 16px;
+        padding-bottom: 14.63px;
+        line-height: 24px;
         padding-bottom: 40px;
     }
 
     .nav_item {
-        white-space: nowrap;
-        padding: 8.63px 21.7px 7.37px 22.64px;
+        text-decoration: none;
+        color: #7E7E82;
+        padding: 8px 10px 8px 17px;
     }
 
     .nav_1,
