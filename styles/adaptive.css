@@ -160,13 +160,16 @@
 @media screen and (min-width:320px) and (max-width:767px){
     .con {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     main {
         padding: 24px 16px 7.62px 16px;
     }
-
+.container{
+    display: flex;
+    justify-content: space-between;
+}
     .block_container1 {
         display: flex;
         justify-content: space-between;
@@ -175,12 +178,17 @@
     .block_container2 {
         display: none;
     }
-
     .pics1 {
         display: flex;
     }
-
+.pic_item1{
+display: flex;
+}
     .pic_item2 {
+        display: none;
+    }
+    a.text1,
+    a.text2 {
         display: none;
     }
 
