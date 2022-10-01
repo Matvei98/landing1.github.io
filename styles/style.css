@@ -1,11 +1,15 @@
- @media screen (max-width: 1126px) {
+ @media screen and (min-width: 1121px) {
 
+    .con{
+        display: flex;
+        flex-direction: column; 
+    }
     body {
         font-family: TT Lakes;
     }
 
     main {
-        padding: 42px 32px 11.13px 35px;
+      padding: 42px 32px 11.13px 35px; 
     }
 
     header {
@@ -40,11 +44,12 @@
     .container {
         display: flex;
     }
-
-    .pics1 {
-        display: none;
-    }
-
+   .block_container1{
+  display: none;  
+     }
+.block_container2{
+    display: none;
+}
     .block_container3 {
         display: flex;
     }
@@ -69,9 +74,12 @@
 
     .nav_items {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         font-size: 16px;
         padding-bottom: 14.63px;
+        line-height: 24px;
+        
     }
 
     span {
@@ -86,8 +94,9 @@
     .nav_item {
         text-decoration: none;
         color: #7E7E82;
-        padding: 8.63px 21.7px 7.37px 22.64px;
+         padding: 8.63px 21.7px 7.37px 22.64px;
     }
+
 
     .nav_item:hover {
         outline: 2px solid #B8FFEC;
@@ -125,7 +134,7 @@
         height: 160px;
         font-size: 14px;
         line-height: 20px;
-        flex-basis: 55%;
+        flex-basis: 95%;
     }
 
     .image4 {
@@ -136,8 +145,6 @@
 
     .lalek {
         border-radius: 6px;
-        height: 383.24px;
-
     }
 
     .text {
