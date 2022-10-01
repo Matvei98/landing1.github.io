@@ -63,6 +63,8 @@
     .picture {
         height: 40px;
         width: 4px;
+        position: absolute;
+        left: 0;
     }
 
     .header-line {
