@@ -1,4 +1,5 @@
-@media screen (max-width: 1126px) {
+ @media screen (max-width: 1126px) {
+
     body {
         font-family: TT Lakes;
     }
@@ -39,9 +40,11 @@
     .container {
         display: flex;
     }
-.pics1{
-    display: none;
-}
+
+    .pics1 {
+        display: none;
+    }
+
     .block_container3 {
         display: flex;
     }
@@ -152,4 +155,4 @@
     .rek {
         display: none;
     }
-}
+ }
