@@ -93,7 +93,6 @@
         font-size: 16px;
         padding-bottom: 14.63px;
         line-height: 24px;
-        padding-bottom: 40px;
     }
 
     .nav_item {
@@ -133,14 +132,21 @@
 
     .text_item {
         display: flex;
-        height: 160px;
-        width: 312px;
-        flex-basis: 90%;
+        font-size: 14px;
+        line-height: 20px;
+      flex-direction: column;
     }
 
     .text {
-        position: relative;
-        left: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+    align-items: center;
+    justify-content: flex-end;
+    }
+    .icon{
+        padding-right: 16px;
+        padding-left: 10px;
     }
 
     .lalek {
