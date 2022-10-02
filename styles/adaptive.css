@@ -185,7 +185,11 @@
         gap: 16px;
     }
 
-
+.container2{
+    display: flex;
+    flex-direction: column;
+    gap: 250px;
+}
     .block_container2 {
         display: none;
     }
@@ -289,14 +293,16 @@ padding-left: 8px;
 }
     .image4 {
         display: flex;
-        justify-content: flex-start;
-        transform: translateX(-15px);
-    }
-
-    .lalek {
-        border-radius: 6px;
+        justify-content: ;
+       border-radius: 6px;
         height: 230.8px;
         width: 320px;
+        flex-direction: column-reverse;
+        transform: translateX(-23px);
+    }
+ 
+    .lalek {
+        
     }
 
 }
