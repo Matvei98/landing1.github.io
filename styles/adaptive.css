@@ -188,7 +188,7 @@
 .container2{
     display: flex;
     flex-direction: column;
-    gap: 230px;
+    gap: 250px;
 }
     .block_container2 {
         display: none;
@@ -238,14 +238,14 @@ width: 4px;
        display: flex;
         overflow: scroll;
        font-size: 16px;
-       line-height: 24px;
+       line-height: 24px;    
     }
-
     .nav_item{
     text-decoration: none; 
     color: #7E7E82;
-    padding: 8px 9px 8px 17px;
+   
     }
+    
     .nav_item:hover {
         outline: 2px solid #B8FFEC;
         border-radius: 6px;
