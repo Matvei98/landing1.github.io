@@ -1,5 +1,8 @@
 
 @media screen and (min-width:784px) and (max-width:1120px) {
+    body {
+        font-family: TT Lakes;
+    }
     .con {
         display: flex;
         flex-direction: column;
@@ -158,6 +161,10 @@
 
 
 @media screen and (min-width:320px) and (max-width:767px){
+    body {
+        font-family: TT Lakes;
+    }
+
     .con {
         display: flex;
         flex-direction: column;
@@ -227,20 +234,29 @@ padding-right: 20px;
     height: 40px;
 width: 4px;
 
-
 }
     .nav_items {
        display: flex;
+        overflow:scroll;
+       font-size: 16px;
+       line-height: 24px;
+    }
+
+    .nav_item{
+    text-decoration: none; 
+    color: #7E7E82;
+    padding: 8px 9px 8px 17px;
     }
     .nav_item:hover {
         outline: 2px solid #B8FFEC;
         border-radius: 6px;
     }
+    .review_item{
+    display: none;
+     }
 
     .container2 {
-        display: flex;
-        gap: 220px;
-        flex-direction: column;
+        display: flex;   
     }
 
     .block_container4 {
@@ -249,12 +265,28 @@ width: 4px;
 
     .text_item {
         display: flex;
+        flex-direction: column;
+        font-size: 14px;
         height: 90px;
         width: 288px;
-        flex-basis: 95%;
+        flex-basis: 80%;
         line-height: 18px;
+        color: #1B1C21;
     }
-
+.icon{
+padding-right: 16px;
+padding-left: 8px;
+}
+.text{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 16px;
+    color: #1B1C21;
+    align-items: center;
+}
     .image4 {
         display: flex;
         justify-content: flex-start;
