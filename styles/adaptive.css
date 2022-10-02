@@ -188,7 +188,7 @@
 .container2{
     display: flex;
     flex-direction: column;
-    gap: 250px;
+    gap: 230px;
 }
     .block_container2 {
         display: none;
