@@ -197,9 +197,7 @@
         display: flex;   
         gap: 16px;
     }
-   .link_item1{
-
-   }
+   
     .pics1 {
         display: flex;
     }
@@ -300,9 +298,4 @@ padding-left: 8px;
         flex-direction: column-reverse;
         transform: translateX(-23px);
     }
- 
-    .lalek {
-        
-    }
-
 }
