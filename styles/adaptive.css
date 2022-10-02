@@ -207,9 +207,6 @@ display: flex;
     .pic_item2 {
         display: none;
     }
-    .pic_item3{
-   
-    }
     a.text1,
     a.text2 {
         display: none;
@@ -291,7 +288,6 @@ padding-left: 8px;
 }
     .image4 {
         display: flex;
-        justify-content: ;
        border-radius: 6px;
         height: 230.8px;
         width: 320px;
