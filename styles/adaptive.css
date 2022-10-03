@@ -281,9 +281,7 @@ padding: 10px 16px 18px 16px;
         margin-left: 32.54px;
         margin-right: 40px;
     }
-    .nav_item::before{
- 
-    }
+    
     .nav_item:hover {
      outline: 2px solid #B8FFEC;
     border-radius: 6px;
