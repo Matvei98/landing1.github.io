@@ -211,7 +211,8 @@ padding: 10px 16px 18px 16px;
     }
 
     .container2 {
-       
+       display: flex;
+       flex-direction: column;
     }
 
     .block_container2 {
@@ -294,6 +295,7 @@ padding: 10px 16px 18px 16px;
     .block_container4 {
         padding-left: 16px;
         padding-right: 16px;
+        padding-bottom: 20px;
     }
 
     .text_item {
@@ -324,8 +326,12 @@ padding: 10px 16px 18px 16px;
     .image4 {
         display: flex;
         border-radius: 6px;
-        height: 230.8px;
-        width: 320px;
+        
         flex-direction: column;
+    }
+    .lalek{
+     position: absolute;  
+     left: 0;
+    width: 320px; 
     }
 }
