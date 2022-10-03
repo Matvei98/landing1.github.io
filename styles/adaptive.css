@@ -1,22 +1,30 @@
-
 @media screen and (min-width:784px) and (max-width:1120px) {
     body {
         font-family: TT Lakes;
     }
+
     .con {
         display: flex;
         flex-direction: column;
     }
 
+    header {
+        background-color:
+            #FFFFFF;
+        padding: 24px 40px 23px 24px;
+
+    }
+
     main {
-        padding: 24px 40px 14.34px 24px;
+        background-color: #F8F8F8;
+        padding-left: 24px;
+        padding-right: 15px;
     }
 
     .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-bottom: 42px;
     }
 
     .block_container1 {
@@ -28,8 +36,15 @@
     .block_container2 {
         display: flex;
     }
-    .block_container3{
+
+    .block_container3 {
         display: flex;
+    }
+
+    .link_item1,
+    .link_item2 {
+        display: flex;
+
     }
 
     .pics1 {
@@ -53,15 +68,12 @@
     }
 
     h1 {
-        margin: 0;
-        padding-bottom: 40px;
-        font-size: 28px;
+    font-size: 28px;
     }
 
     .h_item {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        align-items: center;
     }
 
     .picture {
@@ -90,11 +102,10 @@
     }
 
     .nav_items {
-        display:flex;
+        display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        column-gap: 25px;
         font-size: 16px;
-        padding-bottom: 14.63px;
         line-height: 24px;
     }
 
@@ -137,17 +148,20 @@
         display: flex;
         font-size: 14px;
         line-height: 20px;
-      flex-direction: column;
+        flex-direction: column;
+        color:#1B1C21;
     }
 
     .text {
-    display: flex;
-    flex-direction: row-reverse;
-    text-decoration: none;
-    align-items: center;
-    justify-content: flex-end;
+        display: flex;
+        flex-direction: row-reverse;
+        text-decoration: none;
+        align-items: center;
+        justify-content: flex-end;
+        color:#1B1C21;
     }
-    .icon{
+
+    .icon {
         padding-right: 16px;
         padding-left: 10px;
     }
@@ -156,11 +170,12 @@
         border-radius: 6px;
         height: 259.65px;
         width: 360px;
+        padding-right: 25px;
     }
 }
 
 
-@media screen and (min-width:320px) and (max-width:767px){
+@media screen and (min-width:320px) and (max-width:767px) {
     body {
         font-family: TT Lakes;
     }
@@ -168,133 +183,156 @@
     .con {
         display: flex;
         flex-direction: column;
+       
+    }
+
+    header {
+        background-color:
+            #FFFFFF;
     }
 
     main {
-        padding: 24px 16px 7.62px 16px;
+        background-color: #F8F8F8;
+
     }
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 10px;
+.header-line{
+padding: 10px 16px 18px 16px;
 }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
     .block_container1 {
         display: flex;
         align-items: center;
         gap: 16px;
     }
 
-.container2{
-    display: flex;
-    flex-direction: column;
-    gap: 250px;
-}
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        gap: 250px;
+    }
+
     .block_container2 {
         display: none;
     }
-    .block_container3{
-        display: flex;   
+
+    .block_container3 {
+        display: flex;
         gap: 16px;
     }
-   
+
     .pics1 {
         display: flex;
     }
-.pic_item1{
-display: flex;
-}
+
+    .pic_item1 {
+        display: flex;
+    }
+
     .pic_item2 {
         display: none;
     }
+
     a.text1,
     a.text2 {
         display: none;
     }
 
-    .rek{
+    .rek {
         padding-left: 16px;
-padding-right: 20px;
+        padding-right: 20px;
     }
 
     h1 {
-        position: relative;
-        left: -10px;
-      font-size: 28px;
-      line-height: 40px;
+    font-size: 28px;
+    line-height: 40px;
+    padding-left: 12px;
     }
- .h_item {
+
+    .h_item {
         display: flex;
         align-items: center;
     }
-.picture{
-    position: absolute;
-    left: 0;
-    height: 40px;
-width: 4px;
 
-}
+    .picture {
+        position: absolute;
+        left: 0;
+        height: 40px;
+        width: 4px;
+
+    }
+
     .nav_items {
-       display: flex;
+        display: flex;
         overflow: scroll;
-       font-size: 16px;
-       line-height: 24px;
-      gap:28px;  
+        font-size: 16px;
+        line-height: 24px;
+        gap: 28px;
     }
-    .nav_item{
-    text-decoration: none; 
-    color: #7E7E82;
-   
+
+    .nav_item {
+        text-decoration: none;
+        color: #7E7E82;
+
     }
-    .nav_1,.nav_5{
-    display: none;
+
+    .nav_1,
+    .nav_5 {
+        display: none;
     }
+
     .nav_item:hover {
         outline: 2px solid #B8FFEC;
         border-radius: 6px;
     }
-    .review_item{
-    display: none;
-     }
+
+    .review_item {
+        display: none;
+    }
 
     .container2 {
-        display: flex;   
+        display: flex;
     }
 
     .block_container4 {
-        display: flex;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .text_item {
         display: flex;
         flex-direction: column;
         font-size: 14px;
-        height: 90px;
-        width: 288px;
-        flex-basis: 80%;
+        flex-basis: 90%;
         line-height: 18px;
         color: #1B1C21;
     }
-.icon{
-padding-right: 16px;
-padding-left: 8px;
-}
-.text{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    text-decoration: none;
-    line-height: 24px;
-    font-size: 16px;
-    color: #1B1C21;
-    align-items: center;
-}
+
+    .icon {
+        padding-right: 16px;
+        padding-left: 8px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        text-decoration: none;
+        line-height: 24px;
+        font-size: 16px;
+        color: #1B1C21;
+        align-items: center;
+    }
+
     .image4 {
         display: flex;
-       border-radius: 6px;
+        border-radius: 6px;
         height: 230.8px;
         width: 320px;
-        flex-direction: column-reverse;
-        transform: translateX(-23px);
+        flex-direction: column;
     }
 }
