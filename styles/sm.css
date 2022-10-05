@@ -4,8 +4,6 @@
     }
 
     .con {
-        display: flex;
-        flex-direction: column;
         max-width: 768px;
     }
 
@@ -16,7 +14,7 @@
 
     main {
         background-color: #F8F8F8;
-
+        max-width:768px; 
     }
 .header-line{
 padding: 10px 16px 18px 16px;
@@ -81,27 +79,29 @@ padding: 10px 16px 18px 16px;
         width: 4px;
 
     }
-
-    .nav_items { 
-        display: flex;
-         overflow: scroll;
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    .nav_item {
-        display: flex;
-       padding: 8px 9.3px 8px 16.54px;
-        text-decoration: none;
-        color: #7E7E82;
-        margin-left: 32.54px;
-        margin-right: 40px;
-    }
+ /*padding: 8px 9.3px 8px 16.54px;*/
     
-    .nav_item:hover {
-     outline: 2px solid #B8FFEC;
-    border-radius: 6px;
+ .nav_item{
+    display: flex;
+    overflow: scroll;
+    
     }
+    .nav_sm{
+        width: 768px;  
+    }
+    .nav_sm:hover {
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;      
+}
+.nav_2,.nav_3,.nav_4,.nav_6{
+outline: 2px solid #B8FFEC; 
+border-radius: 6px;
+color: #7E7E82;
+text-decoration: none;  
+}
+
+
     .nav_1,
     .nav_5 {
         display: none;
@@ -152,8 +152,6 @@ padding: 10px 16px 18px 16px;
         
     }
     .lalek{
-     position: absolute;  
-     left: 0;
-    width: 320px;
+    max-width: 768px;
     }
 }
