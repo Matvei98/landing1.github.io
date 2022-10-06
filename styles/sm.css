@@ -1,17 +1,21 @@
 @media screen and (min-width:320px) and (max-width:768px) {
     body {
         font-family: TT Lakes;
+        margin: 0;
     }
 
     .con {
        display: flex;
        flex-direction: column;
-       max-width: 100%;
     }
-
+    /* margin: 24px 16px 7.62px 16px;  */
+ /*padding: 24px 16px 7.62px 16px;*/
     header {
+        display: flex;
+        flex-direction: column;
         background-color:
             #FFFFFF;
+        padding: 24px 16px 23px 16px;
     }
 
     main {
@@ -19,6 +23,7 @@
     }
 .header-line{
     display: flex;
+  justify-content: center;
 }
     .container {
         display: flex;
@@ -65,7 +70,7 @@
     h1 {
     font-size: 28px;
     line-height: 40px;
-    padding-left: 12px;
+    padding-left: 16px;
     }
 
     .h_item {
@@ -85,10 +90,10 @@
  .nav_item{
     display: flex;
     overflow: scroll;
+    
     }
     .nav_sm{
-        max-width: 768px; 
-        font-size: 16px; 
+    font-size: 16px; 
         
     }
     .nav_sm:hover {
@@ -102,7 +107,9 @@ align-items: center;
 outline: 2px solid #B8FFEC; 
 border-radius: 6px;
 color: #7E7E82;
-text-decoration: none;   
+text-decoration: none; 
+min-width: 320px; 
+padding: 8px 9.3px 8px 16.54px;
 }
 
 
