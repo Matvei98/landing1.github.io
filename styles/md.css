@@ -1,12 +1,18 @@
 @media screen and (min-width:784px) and (max-width:1120px) {
     body {
+        display: flex;
+        flex-direction: column;
         font-family: TT Lakes;
+        margin: 0; 
+        
     }
     header {
         background-color:
             #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         padding: 24px 40px 23px 24px;
-
     }
     main {
         background-color: #F8F8F8;
@@ -14,11 +20,8 @@
         padding-right: 15px;
     }
 
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+   
+       
 
     .block_container1 {
         display: flex;
@@ -43,7 +46,7 @@
     .pics1 {
         display: flex;
         align-items: center;
-        flex-basis: 15%;
+        flex-basis: 14%;
     }
 
     .pics2 {
@@ -88,26 +91,23 @@
     .review_item {
         display: none;
     }
+.nav_md{
+ display: flex;   
 
+}
     .nav_item {
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 25px;
-        font-size: 16px;
-        line-height: 24px; 
-        text-decoration: none;
-        color: #7E7E82;
-        padding: 8px 10px 8px 17px;
+    display: flex;
+    font-size: 16px;
+    line-height: 24px; 
+    min-width: 784px;
     }
-
-      .nav_item:hover {
-        outline: 2px solid #B8FFEC;
-        border-radius: 6px;
-    }
-
+   .nav_md:hover{
+    outline: 2px solid #B8FFEC;
+    border-radius: 6px;   
+}
+     
     .nav_2,.nav_3,.nav_4,.nav_6{
         display: flex; 
-        min-width: 230px; 
         text-decoration: none;
         color: #7E7E82; 
         padding: 8px 9.3px 8px 17px;
@@ -117,9 +117,6 @@
     .nav_5 {
         display: none;
     }
-
-
-    
     .rek {
         display: flex;
     }
@@ -130,7 +127,8 @@
     }
 
     .block_container4 {
-        display: flex;
+    display: flex;
+    
     }
 
     .text_item {
@@ -139,6 +137,7 @@
         line-height: 20px;
         flex-direction: column;
         color:#1B1C21;
+        flex-basis: 45%;
     }
 
     .text {
@@ -159,7 +158,6 @@
         border-radius: 6px;
         height: 259.65px;
         width: 360px;
-        padding-right: 25px;
     }
 }
 
