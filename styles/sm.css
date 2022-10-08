@@ -14,22 +14,19 @@
     header {
         display: flex;
         background-color:
-            #FFFFFF;
-    padding: 24px 16px 23px 16px;
-        
+            #FFFFFF;   
     }
  
     main {
         background-color: #F8F8F8;   
     }
 .header-line{
-    
+  
 }
     .container {
         display: flex;
         align-items: center;
-        min-width: 320px;
-        
+    padding: 24px 16px 23px 16px;  
     }
 
     .block_container1 {
