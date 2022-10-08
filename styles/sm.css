@@ -3,14 +3,6 @@
         font-family: TT Lakes;
         margin: 0;
     }
-
-    .con {
-       display: flex;
-       flex-direction: column;
-    }
-    /* margin: 24px 16px 7.62px 16px;  */
- /*padding: 24px 16px 7.62px 16px;*/
-/* padding: 24px 16px 23px 16px;*/
     header {
         display: flex;
         background-color:
@@ -26,6 +18,8 @@
     .container {
         display: flex;
         align-items: center;
+        width: 100%;
+        justify-content: space-between;
     padding: 24px 16px 23px 16px;  
     }
 
@@ -87,29 +81,34 @@
     
  .nav_item{
     display: flex;
-    overflow: scroll;
-  padding: 5px 0px 32px 33px; 
+    min-width: 320px; 
     }
     .nav_sm{
-    font-size: 16px; 
-      
-    }
-    .nav_sm:hover {
+    font-size: 16px;  
+    line-height: 24px;
     display: flex;
-    line-height: 24px;    
+    overflow: scroll; 
+    align-items: center;
     
+    text-decoration: none;
+     color: #7E7E82; 
+     padding: 8px 9.3px 8px 17px; 
+    }
+    .nav_sm{    
 }
-.nav_2,.nav_3,.nav_4,.nav_6{
-display: flex;
-align-items: center;
-outline: 2px solid #B8FFEC; 
-border-radius: 6px;
-color: #7E7E82;
-text-decoration: none; 
-min-width: 320px; 
-padding: 8px 9.3px 8px 0px;
+.nav_2,.nav_3,.nav_4,.nav_6,:hover{
+display: flex; 
+outline: 2px solid #B8FFEC;  
+border-radius: 6px;  
 }
 
+/*display: flex;
+align-items: center;
+min-width: 320px; 
+text-decoration: none;
+color: #7E7E82; 
+padding: 8px 9.3px 8px 17px; 
+ */
 
     .nav_1,
     .nav_5 {
