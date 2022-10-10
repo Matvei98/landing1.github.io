@@ -48,11 +48,6 @@
         display: none;
     }
 
-    .rek {
-        padding-left: 16px;
-        padding-right: 20px;
-    }
-
     h1 {
     font-size: 28px;
     line-height: 40px;
@@ -99,14 +94,6 @@ color: #7E7E82;
 padding: 8px 9.3px 8px 17px;
 }
 
-/*display: flex;
-align-items: center;
-min-width: 320px; 
-text-decoration: none;
-color: #7E7E82; 
-padding: 8px 9.3px 8px 17px; 
- */
-
     .nav_1,
     .nav_5 {
         display: none;
@@ -128,24 +115,27 @@ padding: 8px 9.3px 8px 17px;
         line-height: 18px;   
     }
 
-    .icon {
-        padding-right: 16px;
-        padding-left: 8px;
-    }
-
-    .text {
+    .text_container {
         display: flex;
-        flex-direction: row-reverse;
-        justify-content: flex-end;
+        flex-direction: column;
         text-decoration: none;
         line-height: 24px;
         font-size: 16px;
        color: #1B1C21;
         align-items: center;
+        padding-bottom: 20px;
     }
 .lalek{
-display: flex;
-flex-direction: column;
-max-width: 100%;
+position: relative;
+right: 20px;
+width: 320px;
+}
+.link{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color:#1B1C21;
+    gap:16px;
 }
 }
