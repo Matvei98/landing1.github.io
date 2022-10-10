@@ -1,53 +1,39 @@
-@media screen and (min-width: 1121px) {
-
-    .con{
-        display: flex;
-        flex-direction: column; 
-        padding: 42px 32px 11.13px 35px; 
-      background-color: #F8F8F8;
-    }
+@media screen and (min-width: 1121px){
     body {
-        font-family: TT Lakes;
-    }
-
-    header {
         display: flex;
-        flex-direction: column;
-    }
-
-    .picture {
-        position: absolute;
-        left: 0;
-    }
-
-    h1 {
-        font-size: 28px;
-        display: flex;
-        flex-basis: 65%;
-    }
-
-    .h_item {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .header-line {
-        display: flex;
-        justify-content: space-between;
         flex-direction: row-reverse;
+        align-items: flex-start;
+        font-family: TT Lakes;
+        margin: 0;
+        background-color: #F8F8F8; 
+        padding: 48px 32px 11.13px 32px;
+      
+    }
+main{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+    header {
+   position: absolute;
+    }
+    .h_item {
+    
+    }
+    h1 {
+     position: relative;
+     bottom: 15px;
+    font-size: 28px;    
+    }
+    .picture{
+    position: absolute;
+     left: 0;
     }
 
-
-    .container {
-        display: flex;
-    }
-   .block_container1{
+    
+   .block_container1,.block_container2{
   display: none;  
      }
-.block_container2{
-    display: none;
-}
     .block_container3 {
         display: flex;
     }
@@ -70,36 +56,31 @@
         font-size: 16px;
     }
 
-    .nav_items {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        font-size: 16px;
-        padding-bottom: 14.63px;
-        line-height: 24px;
-        
+    .nav_3{
+    display: none;
     }
-
-    span {
-        display: none;
-    }
-
-    .nav_1,
-    .nav_5 {
-        display: flex;
-    }
-
+.nav_lg{
+display: flex;
+}
     .nav_item {
-        text-decoration: none;
-        color: #7E7E82;
-         padding: 8.63px 21.7px 7.37px 22.64px;
+     display: flex;
+    color: #7E7E82;
+    min-width: 1121px;
+    font-size: 16px;
+    gap:15px;
     }
-
 
     .nav_item:hover {
         outline: 2px solid #B8FFEC;
         border-radius: 6px;
     }
+        .nav_1,.nav_2,.nav_4,.nav_5,.nav_6{
+            display: flex; 
+            text-decoration: none;
+            color: #7E7E82; 
+            padding: 8px 9.3px 8px 17px;
+            }
+
 
     .review {
         font-size: 16px;
@@ -117,43 +98,32 @@
         border-radius: 6px;
     }
 
-    .container2 {
-        display: flex;
-        justify-content: space-between;
-    }
-
     .block_container4 {
         display: flex;
+    gap:36px;
+    min-width: 1121px;
     }
 
-    .text_item {
+    .text_container {
         display: flex;
         flex-direction: column;
-        height: 160px;
         font-size: 14px;
         line-height: 20px;
-        flex-basis: 95%;
+       flex-basis: 48%;
     }
 
-    .image4 {
-        display: flex;
-        justify-content: flex-end;
-        width: 531.34px;
+    .lalek {  
+     max-width: 500px;
+     border-radius: 6px;
     }
 
-    .lalek {
-        border-radius: 6px;
-    }
-
-    .text {
+    .link {
         text-decoration: none;
         color: #1B1C21;
         line-height: 24px;
         font-size: 16px;
         display: flex;
         align-items: center;
-        flex-direction: row-reverse;
-        justify-content: flex-end;
         gap: 16px;
     }
 
