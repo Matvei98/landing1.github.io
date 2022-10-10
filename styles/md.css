@@ -10,14 +10,15 @@
         background-color:
             #FFFFFF;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
-        padding: 24px 40px 23px 10px;
+        padding-top: 24px;
+        padding-bottom: 23px;
+        width: 100%;
     }
     main {
         background-color: #F8F8F8;
         padding-left: 24px;
-        padding-right: 15px;
     }
     .block_container1 {
         display: flex;
@@ -127,7 +128,8 @@
     font-size: 14px;
     line-height: 20px;
     color:#1B1C21; 
-    min-width: 784px;
+   justify-content: space-between;
+   gap: 48px;
     }
     .text_container{
     display: flex;
@@ -143,6 +145,8 @@
         color:#1B1C21;
     }
     .lalek {
+    position: relative;
+    right: 20px;
     width: 360px;
     height: 259.66px;
     border-radius: 6px;
