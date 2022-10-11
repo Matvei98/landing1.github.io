@@ -5,17 +5,17 @@
         font-family: TT Lakes;
         margin: 0; 
         min-width: 784px;
+       
     }
     header {
         background-color:
-            #FFFFFF;
+            #FFFFFF; 
         display: flex;
         justify-content: space-between;
         align-items: center;
        height: 88px;
        padding-left: 24px;
-       padding-right: 24px;
-        
+       padding-right: 40px;  
     }
     main {
         background-color: #F8F8F8;
@@ -89,12 +89,12 @@
     .review_item {
         display: none;
     }
-    .nav_md{
+       .nav_md{
         display:flex;
-          overflow: scroll; 
           padding-top: 5px;
           padding-bottom: 5px;
           padding-left: 20px;
+    padding-right: 20px;
          } 
        .nav_item:hover{
        display: flex;
@@ -102,14 +102,12 @@
       }
       
       .nav_item{
-      display: flex; 
       font-size: 16px;  
       line-height: 24px; 
-      min-width: 230px; 
       text-decoration: none;
       color: #7E7E82; 
-      border-radius: 5px;
-      padding: 8px 9.3px 8px 16px;
+      border-radius: 6px;
+      padding: 8px 9px 8px 16px;
        }             
       
 

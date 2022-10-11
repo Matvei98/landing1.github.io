@@ -2,12 +2,10 @@
     body {
         display: flex;
         flex-direction: row-reverse;
-        align-items: flex-start;
         font-family: TT Lakes;
         margin: 0;
         background-color: #F8F8F8; 
-        padding: 48px 32px 11.13px 32px;
-      
+        padding: 48px 32px 11.13px 32px;     
     }
 main{
 display: flex;
@@ -61,7 +59,8 @@ width: 100%;
     }
     .nav_lg{
         display:flex;
-         } 
+        justify-content: space-between;
+        } 
        .nav_item:hover{
        display: flex;
       outline: 2px solid #B8FFEC; 
@@ -70,11 +69,10 @@ width: 100%;
       .nav_item{
       display: flex; 
       font-size: 16px;  
-      line-height: 24px; 
-      min-width: 230px; 
+      line-height: 24px;  
       text-decoration: none;
       color: #7E7E82; 
-      border-radius: 5px;
+      border-radius: 6px;
       padding: 8px 9.3px 8px 16px;
        }     
 
