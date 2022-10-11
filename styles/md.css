@@ -10,11 +10,12 @@
         background-color:
             #FFFFFF;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
-        padding-top: 30px;
-        padding-bottom: 23px;
-        width: 100%;
+       height: 88px;
+       padding-left: 24px;
+       padding-right: 24px;
+        
     }
     main {
         background-color: #F8F8F8;
@@ -88,30 +89,31 @@
     .review_item {
         display: none;
     }
-.nav_md{
- display: flex;   
+    .nav_md{
+        display:flex;
+          overflow: scroll; 
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 20px;
+         } 
+       .nav_item:hover{
+       display: flex;
+      outline: 2px solid #B8FFEC; 
+      }
+      
+      .nav_item{
+      display: flex; 
+      font-size: 16px;  
+      line-height: 24px; 
+      min-width: 230px; 
+      text-decoration: none;
+      color: #7E7E82; 
+      border-radius: 5px;
+      padding: 8px 9.3px 8px 16px;
+       }             
+      
 
-}
-    .nav_item {
-    display: flex;
-    font-size: 16px;
-    line-height: 24px; 
-    min-width: 784px;
-    }
-   .nav_md:hover{
-    outline: 2px solid #B8FFEC;
-    border-radius: 6px;   
-}
-     
-    .nav_2,.nav_3,.nav_4,.nav_6{
-        display: flex; 
-        text-decoration: none;
-        color: #7E7E82; 
-        padding: 8px 9.3px 8px 17px;
-        }
-
-    .nav_1,
-    .nav_5 {
+   span {
         display: none;
     }
     .rek {
@@ -130,12 +132,11 @@
     color:#1B1C21; 
    justify-content: space-between;
    gap: 48px;
+   padding-top: 14px;
     }
     .text_container{
     display: flex;
     flex-direction: column;
-    width: 312px;
-    flex-basis: 40%;
     }
     .link {
         display: flex;
@@ -148,7 +149,7 @@
     .lalek {
     position: relative;
     right: 20px;
-    width: 360px;
+    width: 390px;
     height: 259.66px;
     border-radius: 6px;
     }
