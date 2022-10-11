@@ -75,7 +75,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 20px;
-    padding-right: 40px;
+    padding-right: 20px;
    } 
  .nav_item:hover{
  display: flex;
@@ -86,11 +86,11 @@ outline: 2px solid #B8FFEC;
 display: flex; 
 font-size: 16px;  
 line-height: 24px; 
-min-width: 230px; 
+min-width: 246px; 
 text-decoration: none;
 color: #7E7E82; 
 border-radius: 6px;
-padding: 8px 9.3px 8px 16px;
+padding: 8px 0px 8px 0px;
 justify-content: space-around;
  }             
     span{
